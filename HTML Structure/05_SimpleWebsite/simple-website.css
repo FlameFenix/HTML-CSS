@@ -48,7 +48,10 @@ section {
 
 footer {
     background-color: #444;
-    color: #fff;
+}
+
+footer > p {
     text-align: center;
+    color: #fff;
     padding: 10px;
 }
