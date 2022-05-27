@@ -49,3 +49,7 @@ thead {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+.writter {
+    text-align: left;
+}
