@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(71, 71, 71);
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    background-color: black;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 11%;
+    margin-top: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 24px;
+}
+
+ul li a:hover {
+    border-bottom: 1px solid rgb(201, 245, 115);
+    color: rgb(201, 245, 115);
+}
