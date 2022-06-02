@@ -5,6 +5,7 @@ body {
 
 nav {
     margin: 0;
+    margin-bottom: 10px;
     width: 100%;
     height: 40px;
     border: 1px solid yellowgreen;
@@ -33,4 +34,24 @@ ul li a {
 ul li a:hover {
     border-bottom: 1px solid rgb(201, 245, 115);
     color: rgb(201, 245, 115);
+}
+
+section {
+    width: 100%;
+    background-color: black;
+    color: gray;
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+}
+
+section p {
+    text-indent: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+section h1 {
+    display: block;
+    text-align: center;
 }
