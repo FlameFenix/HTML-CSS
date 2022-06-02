@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(71, 71, 71);
+    background-color: #14110F;
 }
 
 nav {
@@ -8,9 +8,9 @@ nav {
     margin-bottom: 10px;
     width: 100%;
     height: 40px;
-    border: 1px solid yellowgreen;
+    border: 1px solid #7E7F83;
     border-radius: 10px;
-    background-color: black;
+    background-color: #34312D;
 }
 
 ul {
@@ -27,21 +27,26 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: yellowgreen;
+    color: #D9C5B2;
     font-size: 24px;
+    transition: color 400ms ease-in-out;
 }
 
 ul li a:hover {
-    border-bottom: 1px solid rgb(201, 245, 115);
-    color: rgb(201, 245, 115);
+    border-bottom: 1px solid #F3F3F4;
+    color: #F3F3F4;
 }
 
 section {
     width: 100%;
-    background-color: black;
-    color: gray;
-    border: 1px solid yellowgreen;
+    background-color: #34312D;
+    color: #D9C5B2;
+    border: 1px solid #7E7F83;
     border-radius: 10px;
+}
+
+section h1 {
+    color: #D9C5B2;
 }
 
 section p {
