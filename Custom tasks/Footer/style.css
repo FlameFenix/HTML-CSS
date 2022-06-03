@@ -1,0 +1,62 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: Roboto;
+    background-color: #A6CFD5;
+}
+
+footer {
+    background-color: #320E3B;
+    width: 100% auto;
+}
+
+footer ul[role='list'] {
+    display: inline-block;
+    padding: 3% 15%;
+    line-height: 40px;
+    font-size: 24px;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+footer ul[role='list'] h2 {
+    color: #E56399;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #E56399;
+    transition: color 300ms ease-in-out;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #7F96FF;
+}
+
+footer p,
+footer address {
+    color: #E56399;
+}
+
+footer address {
+    display: inline-block;
+    padding: 3% 15%;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+footer address a {
+    color: #E56399;
+}
+
+address h2 {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
