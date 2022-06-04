@@ -1,7 +1,19 @@
-body header {
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+
+        grid-template-columns: 100px auto;
+        gap: 10px;
+}
+
+header {
     border-radius: 3px;
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
+    grid-area: header;
 }
 
 header h1 {
@@ -9,10 +21,11 @@ header h1 {
     vertical-align: middle;
 }
 
-body aside {
+aside {
     border-radius: 3px;
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
+    grid-area: aside;
 }
 
 aside ul {
@@ -28,14 +41,16 @@ aside ul li a {
     text-decoration: none;
 }
 
-body main {
+main {
     border-radius: 3px;
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
+    grid-area: main;
 }
 
-body footer {
+footer {
     border-radius: 3px;
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
+    grid-area: footer;
 }
