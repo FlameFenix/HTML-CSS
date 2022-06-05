@@ -60,3 +60,7 @@ footer p {
     font-size: 24px;
     padding-bottom: 10px;
 }
+
+footer hr {
+    border: 1px solid #7F96FF;
+}
