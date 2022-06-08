@@ -1,0 +1,53 @@
+
+body {
+    padding: 50px;
+}
+
+header {
+    display: inline;
+    position: relative;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+    color: green;
+    cursor: pointer;
+}
+
+aside {
+    position: absolute;
+    padding-right: 50px;
+    right: 0px;
+}
+
+main article {
+    display: block;
+    position: absolute;
+    width: 70%;
+}
+
+article section img {
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+aside section ul li a{
+    text-decoration: none;
+    color: green;
+}
