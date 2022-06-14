@@ -14,12 +14,13 @@ body div {
 div span {
     border: 1px solid black;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     order: unset;
 }
 
 div span:nth-child(1) {
     order: 9;
+    background-color: red;
 }
 
 div span:nth-child(2) {
@@ -28,6 +29,7 @@ div span:nth-child(2) {
 
 div span:nth-child(3) {
     order: 10;
+    background-color: red;
 }
 
 div span:nth-child(4) {
@@ -44,6 +46,7 @@ div span:nth-child(6) {
 
 div span:nth-child(7) {
     order: 11;
+    background-color: red;
 }
 
 div span:nth-child(8) {
@@ -56,6 +59,7 @@ div span:nth-child(9) {
 
 div span:nth-child(10) {
     order: 12;
+    background-color: red;
 }
 
 div span:nth-child(11) {
