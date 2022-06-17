@@ -3,6 +3,7 @@
 }
 
 .container {
+    display: flex;
     max-width: 65vw;
 }
 
@@ -16,23 +17,19 @@ span {
     border: 1px solid black;
 }
 
-span.worksweek, span.weekend {
+.container .week .worksweek, .container .week .weekend {
     width: 100%;
     padding: 20px;
     text-align: center;
 }
 
-span.monday,
-span.tuesday,
-span.wednesday,
-span.thursday,
-span.friday {
+.container .week span {
     width: 20%;
     padding: 20px;
 }
 
-.saturday,
-.sunday {
+.container .week .saturday,
+.container .week .sunday {
     padding: 20px;
     width: 50%;
 }
@@ -43,6 +40,6 @@ span.friday {
 }
 
 .container .notes span {
-    background-color: rebeccapurple;
     height: 50%;
+    padding: 40px;
 }
