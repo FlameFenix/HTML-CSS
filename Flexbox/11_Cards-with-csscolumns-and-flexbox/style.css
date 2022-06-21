@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+div.cards-layout.masonry {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 100px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card section h3,
+.card section p {
+    padding-left: 10px;
+}
+
+.card footer {
+    border-top: 1px solid black;
+    padding-left: 10px;
+}
+
+div.cards-layout.flex {
+    display: flex;
+    align-items: flex-start;
+    padding: 100px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+body h2 {
+    padding-left: 100px;
+}
