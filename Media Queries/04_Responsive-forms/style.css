@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+.form {
+    display: grid;
+    grid-template-areas:
+        "label-us input-us input-us"
+        "label-pw input-pw input-pw"
+        "btn . .";
+
+    width: 300px;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: rgb(250, 250, 250);
+}
+
+.username {
+    grid-area: input-us;
+    border-radius: 3px;
+    border: 1px solid rgb(230, 230, 230);
+    text-indent: 20px;
+    height: 19px;
+}
+
+.username-lb {
+    grid-area: label-us;
+    font-weight: bolder;
+    color: black;
+}
+
+.password {
+    grid-area: input-pw;
+    border-radius: 3px;
+    border: 1px solid rgb(230, 230, 230);
+    text-indent: 20px;
+    height: 19px;
+}
+
+.password-lb {
+    grid-area: label-pw;
+    font-weight: bolder;
+    color: black;
+}
+
+.btn {
+    grid-area: btn;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+p.header {
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3px 0px;
+    padding-right: 100px;
+    padding-left: 20px;
+    border-radius: 2px;
+    position: relative;
+    margin: 0 auto;
+    top: -120px;
+    right: 120px;
+    font-weight: bold;
+}
+
+body {
+    padding: 20px;
+    font-family: Raleway;
+    display: grid;
+    justify-items: center;
+}
+
+#user-icon {
+    display: block;
+    position: relative;
+    top: -82px;
+    right: 178px;
+    padding: 0px;
+}
+
+#pw-icon {
+    display: block;
+    position: relative;
+    top: -89px;
+    left: 101px;
+    padding: 0px;
+}
